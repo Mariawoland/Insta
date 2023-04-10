@@ -1,0 +1,314 @@
+@font-face {
+    font-family: "Segoe UI";
+    src: url("Segoe\ UI\ Regular.ttf");
+}
+
+body {
+    font-family: "Segoe UI";
+}
+
+.setting-101 {
+    background: #EFEFEF;
+    border-radius: 87px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 103px;
+    padding-top: 76px;
+    padding-bottom: 76px;
+    width: 114px;
+}
+
+.setting-102 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #EFEFEF;
+    padding: 0 30px;
+}
+
+.setting-104 {
+    display: none !important;
+}
+
+.button-101 {
+    border-radius: 111px;
+    background: #EFEFEF;
+    border: none;
+    width: 112.5px;
+    height: 114px;
+}
+
+/*STORIES*/
+
+.setting-201 {
+    display: flex;
+    align-items: center;
+    gap: 2.5%;
+}
+
+.setting-205 {
+    position: relative !important;
+    width: 82px;
+    height: 86px;
+}
+
+.setting-202 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 82px;
+    height: 82px;
+    z-index: 1;
+}
+
+.setting-203 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 4px;
+    bottom: 0;
+}
+
+.setting-204 {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    right: 10.7px;
+    bottom: 7.4px;
+}
+
+.setting-206 {
+    width: 97px;
+    height: 97px;
+    position: relative !important;
+}
+
+.setting-207 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 97px;
+    height: 97px;
+}
+
+.setting-208 {
+    position: absolute;
+    width: 82px;
+    height: 82px;
+    left: 7.5px;
+    top: 7.5px;
+}
+
+.setting-209 {
+    width: 52px;
+    height: 97px;
+    background: #EFEFEF;
+    border-radius: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.setting-210 {
+    display: none;
+}
+
+
+/*POST*/
+
+.setting-301 {
+    width: 100%;
+    background: #EFEFEF;
+    border-radius: 36px;
+}
+
+.button-301 {
+    width: 49px;
+    height: 49px;
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(2.5px);
+    border-radius: 36px;
+    margin: auto 10px;
+
+}
+
+.setting-304 {
+    position: relative;
+}
+
+.setting-302 {
+    position: relative;
+    width: 100%;
+}
+
+.setting-303 {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+
+.setting-401 {
+    position: relative;
+    width: 58px;
+    height: 58px;
+}
+
+.setting-402 {
+    position: relative;
+    width: 58px;
+    height: 58px;
+}
+
+.setting-403 {
+    position: absolute;
+    top: 4.5px;
+    left: 4.5px;
+    width: 48px;
+    height: 48px;
+}
+
+.text-401 {
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+}
+
+.text-402 {
+    font-size: 11px;
+    line-height: 8px;
+    letter-spacing: 0.01em;
+    color: #8D8D8D;
+}
+
+.text-403 {
+    font-weight: 350;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+}
+
+.group-401 {
+    background: #F8F8F8;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 78px;
+}
+
+.button-401 {
+    border-radius: 78px;
+}
+
+.button-402 {
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.text-404 {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.text-405 {
+    font-weight: 350;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+}
+
+.text-406 {
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    color: #8D8D8D;
+}
+
+
+.karuseli {
+    width: 70%;
+}
+
+.setting-502 {
+    position: relative;
+}
+
+.setting-501 {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.setting-503 {
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+}
+
+.setting-504 {
+    position: absolute;
+    top: 65px;
+    left: 40px;
+    width: 80%;
+}
+
+.text-501 {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.text-502 {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.input-501 {
+    width: 340px;
+    height: 66px;
+    background-color: transparent;
+    border: 3px solid #F8F8F8;
+    border-radius: 43px;
+}
+
+.button-501 {
+    background-color: transparent;
+    border: none;
+    margin-left: auto !important;
+}
+
+::placeholder {
+    font-size: 24px;
+    line-height: 127.01%;
+    letter-spacing: -0.055em;
+    color: #F8F8F8;
+}
+
+
+@media (max-width: 1800px) {
+    .input-501 {
+        width: 300px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .input-501 {
+        width: 240px;
+    }
+}
+
+@media (max-width: 1390px) {
+    .input-501 {
+        width: 200px;
+    }
+}
